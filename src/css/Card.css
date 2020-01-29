@@ -1,9 +1,9 @@
 .card-hover {
-    transition: 0.2s all ease-in-out;
-    -webkit-transition: 0.2s all ease-in-out;
-    -moz-transition: 0.2s all ease-in-out;
-    -ms-transition: 0.2s all ease-in-out;
-    -o-transition: 0.2s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+  -webkit-transition: 0.2s all ease-in-out;
+  -moz-transition: 0.2s all ease-in-out;
+  -ms-transition: 0.2s all ease-in-out;
+  -o-transition: 0.2s all ease-in-out;
 }
 
 .card-hover:hover {
@@ -14,13 +14,15 @@
   -o-transform: scale(1.05);
 }
 
-.card-image {
-  height: 600px;
+.box {
+  border: solid 1px black;
+  margin-top: 5em;
+  align-items: center;
 }
 
-.image {
-  overflow: hidden;
-  width: auto;
-  height: 100%;
+.calculate {
+    margin: 0 auto;
+  border: solid 1px black;
+  width: 10em;
+  height: 50em;
 }
-
