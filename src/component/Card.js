@@ -5,14 +5,17 @@ class PostCard extends Component {
   render() {
     const { title, body } = this.props;
     return(
-      <Card className="card-wrapper">
-        <Card.Header>{title}</Card.Header>
-        <Card.Body>
-          <Card.Text>
-            {body}
-          </Card.Text>
-        </Card.Body>
-      </Card>
+      <div>
+        Card for show Data from API
+      </div>
+      // <Card className="card-wrapper">
+      //   <Card.Header>{title}</Card.Header>
+      //   <Card.Body>
+      //     <Card.Text>
+      //       {body}
+      //     </Card.Text>
+      //   </Card.Body>
+      // </Card>
     )
   }
 }
