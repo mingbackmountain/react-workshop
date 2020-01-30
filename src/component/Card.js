@@ -16,6 +16,7 @@ class AnimalCard extends React.Component {
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Text>{text}</Card.Text>
+          <Button onClick={()=>this.props._onClick(title)}>Click me!</Button>
         </Card.Body>
       </Card>
     );
