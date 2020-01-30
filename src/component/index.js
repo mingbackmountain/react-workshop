@@ -1,6 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import AnimalCard from "./Card";
+import Fetch from "./Fetch";
 
 class index extends React.Component {
   constructor(props) {
@@ -11,13 +10,7 @@ class index extends React.Component {
   }
   render() {
     return (
-      <Container>
-        <Row>
-          <Col md={4}>
-            <AnimalCard className="justify-content-center" />
-          </Col>
-        </Row>
-      </Container>
+      <Fetch />
     );
   }
 }

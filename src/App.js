@@ -1,5 +1,6 @@
 import React from "react";
-import Index from "./component/index";
+import "./css/style.css";
+import Index from "./component";
 
 class App extends React.Component {
   render() {

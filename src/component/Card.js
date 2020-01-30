@@ -1,25 +1,20 @@
-import React from "react";
-import "../css/Card.css"
-import { Card } from "react-bootstrap";
-
-class AnimalCard extends React.Component {
+import React, { Component } from "react";
+import { Card } from 'react-bootstrap';
+import "../css/card.css";
+class PostCard extends Component {
   render() {
-    const { img, alt, title, text} = this.props;
-    return (
-      <Card  className="m-4 card-hover card-image">
-        <Card.Img
-          variant="center"
-          src={img}
-          alt={alt}
-          className="image"
-        />
+    const { title, body } = this.props;
+    return(
+      <Card className="card-wrapper">
+        <Card.Header>{title}</Card.Header>
         <Card.Body>
-          <Card.Title>{title}</Card.Title>
-          <Card.Text>{text}</Card.Text>
+          <Card.Text>
+            {body}
+          </Card.Text>
         </Card.Body>
       </Card>
-    );
+    )
   }
 }
 
-export default AnimalCard;
+export default PostCard;
