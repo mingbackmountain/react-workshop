@@ -9,6 +9,14 @@ class index extends React.Component {
       image: []
     };
   }
+
+  _onClick(e) {
+    console.log(e)
+  this.setState({
+    name: e
+  });
+}
+
   render() {
     return (
       <Container>
