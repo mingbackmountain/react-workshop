@@ -20,6 +20,9 @@ class index extends React.Component {
   render() {
     return (
       <Container>
+          <h1>
+            {"<--"} {this.state.name} {"-->"}
+          </h1>
         <Row>
           <Col md={4}>
             <AnimalCard className="justify-content-center" />
