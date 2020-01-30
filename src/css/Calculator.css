@@ -37,7 +37,19 @@
 }
 
 .sum {
+    font-size: large;
+    border: none;
+    color: none;
     text-align: right;
+    width: 100%;
+    height: 2.5em;
+    outline: none;
+    
+}
+.sum:disabled {
+    background-color: unset;
+
+    
 }
 
 .number-group {
@@ -52,6 +64,11 @@
     /* border: solid 1px black; */
     border-radius: 0;
     width: 4em;
+    height: 3em;
+}
+
+.zero{
+    width: 8.2em;
     height: 3em;
 }
 
