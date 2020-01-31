@@ -1,6 +1,6 @@
 import React from "react";
 import Index from "./component/index";
-import "./css/Nav.css"
+import "./css/Nav.css";
 
 class App extends React.Component {
   render() {
