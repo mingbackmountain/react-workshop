@@ -4,23 +4,23 @@ import Calculator from "./Calculator";
 import Header from "./Header";
 
 class index extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            image: []
-        };
-    }
-    render() {
-        return (
-            <Container>
-                <div>
-                    <Header />
-                </div>
+  constructor(props) {
+    super(props);
+    this.state = {
+      image: []
+    };
+  }
+  render() {
+    return (
+      <Container>
+        <div>
+          <Header />
+        </div>
 
-                <Calculator />
-            </Container>
-        );
-    }
+        <Calculator />
+      </Container>
+    );
+  }
 }
 
 export default index;
