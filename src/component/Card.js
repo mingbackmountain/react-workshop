@@ -1,22 +1,17 @@
 import React, { Component } from "react";
-import { Card } from 'react-bootstrap';
-import "../css/card.css";
+import { Card } from "react-bootstrap";
+import "../css/Card.css";
 class PostCard extends Component {
   render() {
     const { title, body } = this.props;
-    return(
-      <div>
-        Card for show Data from API
-      </div>
-      // <Card className="card-wrapper">
-      //   <Card.Header>{title}</Card.Header>
-      //   <Card.Body>
-      //     <Card.Text>
-      //       {body}
-      //     </Card.Text>
-      //   </Card.Body>
-      // </Card>
-    )
+    return (
+      <Card className='card-wrapper'>
+        <Card.Header>{title}</Card.Header>
+        <Card.Body>
+          <Card.Text>{body}</Card.Text>
+        </Card.Body>
+      </Card>
+    );
   }
 }
 
